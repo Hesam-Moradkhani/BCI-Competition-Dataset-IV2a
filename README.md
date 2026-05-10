@@ -50,3 +50,35 @@ This repository includes 4 Jupyter notebooks designed for beginners:
 - **02_exploring_eeg_data.ipynb** - Basic EEG data exploration and visualization
 - **03_visualizing_trials.ipynb** - Extract and visualize individual trials
 - **04_extracting_motor_imagery_trials.ipynb** - Complete pipeline for trial extraction
+
+
+## EEG Channel Map
+Channel indices and names (critical for BCI research):
+
+| Index | Channel |
+|------|------|
+| 0  | Fz |
+| 1  | FC3 |
+| 2  | FC1 |
+| 3  | FCz |
+| 4  | FC4 |
+| 5  | FC2 |
+| 6 | C3 |
+| 7  | Cz |
+| 8  | C4 |
+| 9  | CP3 |
+| 10  | CPz |
+| 11  | CP4 |
+| 12  | POz |
+| 13 | CP1 |
+| 14 | CP2 |
+| 15 | CP4 |
+| 16  | P1 |
+| 17  | P2 |
+| 18  | Pz |
+| 19  | PO3 |
+| 20  | PO4 |
+| 21 | Oz |
+| 22-24  | EOG |
+
+⭐ Most important channels for motor imagery (sensorimotor cortex)
