@@ -31,5 +31,22 @@ This dataset contains EEG recordings of **motor imagery tasks** from 9 subjects.
 | 783  | Unknown |
 | 1023 | Reject trial |
 
-# Install requirements
+## Event Structure
+A typical trial looks like this in the timeline:
+
+Time (seconds):
+0s     → Trial starts (event 768)
+2s     → Cue onset (769-772: imagery task starts)
+2-6s   → Motor imagery period
+6s     → Trial ends
+
+## Install requirements
 pip install -r requirements.txt
+
+## Tutorial Notebooks
+This repository includes 4 Jupyter notebooks designed for beginners:
+
+- **01_loading_gdf_files.ipynb** - Load GDF files and understand their structure
+- **02_exploring_eeg_data.ipynb** - Basic EEG data exploration and visualization
+- **03_visualizing_trials.ipynb** - Extract and visualize individual trials
+- **04_extracting_motor_imagery_trials.ipynb** - Complete pipeline for trial extraction
