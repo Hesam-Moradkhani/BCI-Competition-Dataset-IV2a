@@ -50,6 +50,3 @@ This repository includes 4 Jupyter notebooks designed for beginners:
 - **02_exploring_eeg_data.ipynb** - Basic EEG data exploration and visualization
 - **03_visualizing_trials.ipynb** - Extract and visualize individual trials
 - **04_extracting_motor_imagery_trials.ipynb** - Complete pipeline for trial extraction
-
-
-⭐ Most important channels for motor imagery (sensorimotor cortex)
